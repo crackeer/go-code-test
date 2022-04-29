@@ -28,7 +28,7 @@ func main() {
 
 	cfg := elasticsearch.Config{
 		Addresses: []string{
-			"http://vr-framework.qcloud.es.realsee.com",
+			"",
 		},
 		/*
 			Transport: &http.Transport{
@@ -38,8 +38,8 @@ func main() {
 					MinVersion: tls.VersionTLS12,
 				},
 			},*/
-		Username: "vr_shepherd",
-		Password: "x#v&30c8VKAcUlBj",
+		Username: "name",
+		Password: "paww",
 	}
 	es, err := elasticsearch.NewClient(cfg)
 	if err != nil {
